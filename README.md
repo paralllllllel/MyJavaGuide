@@ -1,6 +1,6 @@
 # MyJavaGuide
 
-基于 [JavaGuide](https://github.com/Snailclimb/JavaGuide) 整理的个人 Java 后端知识笔记，融入自己的理解与修正。感谢原作者 Snailclimb 的开源贡献。
+基于 [JavaGuide](https://github.com/Snailclimb/JavaGuide) 整理的个人 Java 后端知识笔记，根据自己的需要融入自己的理解与修正。感谢原作者 Snailclimb 的开源贡献。
 
 <!-- #region home -->
 
