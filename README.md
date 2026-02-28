@@ -1,43 +1,8 @@
-- 推荐在线阅读（体验更好，速度更快）：[javaguide.cn](https://javaguide.cn/)
-- 面试突击版本（只保留重点，附带精美 PDF 下载）：[interview.javaguide.cn](https://interview.javaguide.cn/)
+# MyJavaGuide
 
-<div align="center">
-
-[![logo](https://oss.javaguide.cn/github/javaguide/csdn/1c00413c65d1995993bf2b0daf7b4f03.png)](https://github.com/Snailclimb/JavaGuide)
-
-[GitHub](https://github.com/Snailclimb/JavaGuide) | [Gitee](https://gitee.com/SnailClimb/JavaGuide)
-
-<a href="https://trendshift.io/repositories/1319" target="_blank"><img src="https://trendshift.io/api/badge/repositories/1319" alt="Snailclimb%2FJavaGuide | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-
-</div>
-
-> - **实战项目**：
->   - [⭐AI 智能面试辅助平台 + RAG 知识库](https://javaguide.cn/zhuanlan/interview-guide.html)：基于 Spring Boot 4.0 + Java 21 + Spring AI 2.0 开发。非常适合作为学习和简历项目，学习门槛低，帮助提升求职竞争力，是主打就业的实战项目。
->   - [手写 RPC 框架](https://javaguide.cn/zhuanlan/handwritten-rpc-framework.html)：从零开始基于 Netty+Kyro+Zookeeper 实现一个简易的 RPC 框架。麻雀虽小五脏俱全，项目代码注释详细，结构清晰。
-> - **面试资料补充**：
->   - [《Java 面试指北》](https://javaguide.cn/zhuanlan/java-mian-shi-zhi-bei.html)：四年打磨，和 [JavaGuide 开源版](https://javaguide.cn/)的内容互补，带你从零开始系统准备面试！
->   - [《后端面试高频系统设计&场景题》](https://javaguide.cn/zhuanlan/back-end-interview-high-frequency-system-design-and-scenario-questions.html)：30+ 道高频系统设计和场景面试，助你应对当下中大厂面试趋势。
-> - **使用建议** ：有水平的面试官都是顺着项目经历挖掘技术问题。一定不要死记硬背技术八股文！详细的学习建议请参考：[JavaGuide 使用建议](https://javaguide.cn/javaguide/use-suggestion.html)。
-> - **求个 Star**：如果觉得 JavaGuide 的内容对你有帮助的话，还请点个免费的 Star，这是对我最大的鼓励，感谢各位一起同行，共勉！传送门：[GitHub](https://github.com/Snailclimb/JavaGuide) | [Gitee](https://gitee.com/SnailClimb/JavaGuide)。
-> - **转载须知**：以下所有文章如非文首说明为转载皆为 JavaGuide 原创，转载请在文首注明出处。如发现恶意抄袭/搬运，会动用法律武器维护自己的权益。让我们一起维护一个良好的技术创作环境！
+基于 [JavaGuide](https://github.com/Snailclimb/JavaGuide) 整理的个人 Java 后端知识笔记，融入自己的理解与修正。感谢原作者 Snailclimb 的开源贡献。
 
 <!-- #region home -->
-
-## 面试突击版本
-
-很多同学有“临时突击面试”的需求，所以我专门做了一个 [JavaGuide 面试突击版](https://interview.javaguide.cn/home.html)：在 [JavaGuide](https://javaguide.cn/home.html) 原有内容基础上做了大幅精简，只保留高频必考重点，并一直持续更新。
-
-在这些“精简后的重点”里，我又额外用 ⭐️ 标出了**重点中的重点**，方便你优先浏览、快速记忆。
-
-同时提供亮色（白天）和暗色（夜间）PDF，**需要打印的同学记得选亮色版本**，纸质阅读体验会更好。
-
-如果你**时间比较充裕**，更推荐直接在 [JavaGuide 官网](https://javaguide.cn/) 上**系统学习**：内容比突击版更全面、更深入，更适合打基础和长期提升。
-
-**突击版本网站入口**：[interview.javaguide.cn](https://interview.javaguide.cn/)
-
-对应的 PDF 版本，可以直接在公众号后台回复“**PDF**”获取：
-
-<img src="https://oss.javaguide.cn/github/javaguide/gongzhonghao-javaguide.png" alt="JavaGuide 公众号"  style="zoom: 43%; display: block; margin: 0 auto;" />
 
 ## Java
 
@@ -186,19 +151,12 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ### 算法
 
-算法这部分内容非常重要，如果你不知道如何学习算法的话，可以看下我写的：
-
-- [算法学习书籍+资源推荐](https://www.zhihu.com/question/323359308/answer/1545320858) 。
-- [如何刷 Leetcode?](https://www.zhihu.com/question/31092580/answer/1534887374)
-
 **常见算法问题总结**：
 
 - [几道常见的字符串算法题总结](./docs/cs-basics/algorithms/string-algorithm-problems.md)
 - [几道常见的链表算法题总结](./docs/cs-basics/algorithms/linkedlist-algorithm-problems.md)
 - [剑指 offer 部分编程题](./docs/cs-basics/algorithms/the-sword-refers-to-offer.md)
 - [十大经典排序算法](./docs/cs-basics/algorithms/10-classical-sorting-algorithms.md)
-
-另外，[GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/) 这个网站总结了常见的算法 ，比较全面系统。
 
 ## 数据库
 
@@ -253,11 +211,9 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 - [MongoDB 常见知识点&面试题总结(上)](./docs/database/mongodb/mongodb-questions-01.md)
 - [MongoDB 常见知识点&面试题总结(下)](./docs/database/mongodb/mongodb-questions-02.md)
 
-## 搜索引擎
+### 搜索引擎
 
-[Elasticsearch 常见面试题总结(付费)](./docs/database/elasticsearch/elasticsearch-questions-01.md)
-
-![JavaGuide 官方公众号](https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png)
+- [Elasticsearch 常见面试题总结](./docs/database/elasticsearch/elasticsearch-questions-01.md)
 
 ## 开发工具
 
@@ -268,7 +224,7 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ### Gradle
 
-[Gradle 核心概念总结](./docs/tools/gradle/gradle-core-concepts.md)（可选，目前国内还是使用 Maven 普遍一些）
+- [Gradle 核心概念总结](./docs/tools/gradle/gradle-core-concepts.md)
 
 ### Docker
 
@@ -302,7 +258,6 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 - [Spring 常见知识点&面试题总结](./docs/system-design/framework/spring/spring-knowledge-and-questions-summary.md)
 - [SpringBoot 常见知识点&面试题总结](./docs/system-design/framework/spring/springboot-knowledge-and-questions-summary.md)
 - [Spring/Spring Boot 常用注解总结](./docs/system-design/framework/spring/spring-common-annotations.md)
-- [SpringBoot 入门指南](https://github.com/Snailclimb/springboot-guide)
 
 **重要知识点详解**：
 
@@ -313,7 +268,7 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 #### MyBatis
 
-[MyBatis 常见面试题总结](./docs/system-design/framework/mybatis/mybatis-interview.md)
+- [MyBatis 常见面试题总结](./docs/system-design/framework/mybatis/mybatis-interview.md)
 
 ### 安全
 
@@ -334,11 +289,11 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ### 定时任务
 
-[Java 定时任务详解](./docs/system-design/schedule-task.md)
+- [Java 定时任务详解](./docs/system-design/schedule-task.md)
 
 ### Web 实时消息推送
 
-[Web 实时消息推送详解](./docs/system-design/web-real-time-message-push.md)
+- [Web 实时消息推送详解](./docs/system-design/web-real-time-message-push.md)
 
 ## 分布式
 
@@ -356,8 +311,6 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 - [Dubbo 常见知识点&面试题总结](https://javaguide.cn/distributed-system/rpc/dubbo.html)
 
 ### ZooKeeper
-
-> 这两篇文章可能有内容重合部分，推荐都看一遍。
 
 - [ZooKeeper 相关概念总结(入门)](https://javaguide.cn/distributed-system/distributed-process-coordination/zookeeper/zookeeper-intro.html)
 - [ZooKeeper 相关概念总结(进阶)](https://javaguide.cn/distributed-system/distributed-process-coordination/zookeeper/zookeeper-plus.html)
@@ -379,11 +332,11 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ### 分布式事务
 
-[分布式事务常见知识点&面试题总结](https://javaguide.cn/distributed-system/distributed-transaction.html)
+- [分布式事务常见知识点&面试题总结](https://javaguide.cn/distributed-system/distributed-transaction.html)
 
 ### 分布式配置中心
 
-[分布式配置中心常见知识点&面试题总结](./docs/distributed-system/distributed-configuration-center.md)
+- [分布式配置中心常见知识点&面试题总结](./docs/distributed-system/distributed-configuration-center.md)
 
 ## 高性能
 
@@ -396,11 +349,11 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ### 负载均衡
 
-[负载均衡常见知识点&面试题总结](./docs/high-performance/load-balancing.md)
+- [负载均衡常见知识点&面试题总结](./docs/high-performance/load-balancing.md)
 
 ### CDN
 
-[CDN（内容分发网络）常见知识点&面试题总结](./docs/high-performance/cdn.md)
+- [CDN（内容分发网络）常见知识点&面试题总结](./docs/high-performance/cdn.md)
 
 ### 消息队列
 
@@ -412,23 +365,23 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 
 ## 高可用
 
-[高可用系统设计指南](./docs/high-availability/high-availability-system-design.md)
+- [高可用系统设计指南](./docs/high-availability/high-availability-system-design.md)
 
 ### 冗余设计
 
-[冗余设计详解](./docs/high-availability/redundancy.md)
+- [冗余设计详解](./docs/high-availability/redundancy.md)
 
 ### 限流
 
-[服务限流详解](./docs/high-availability/limit-request.md)
+- [服务限流详解](./docs/high-availability/limit-request.md)
 
 ### 降级&熔断
 
-[降级&熔断详解](./docs/high-availability/fallback-and-circuit-breaker.md)
+- [降级&熔断详解](./docs/high-availability/fallback-and-circuit-breaker.md)
 
 ### 超时&重试
 
-[超时&重试详解](./docs/high-availability/timeout-and-retry.md)
+- [超时&重试详解](./docs/high-availability/timeout-and-retry.md)
 
 ### 集群
 
@@ -441,16 +394,6 @@ JVM 这部分内容主要参考 [JVM 虚拟机规范-Java8](https://docs.oracle.
 - **备份**：将系统所产生的所有重要数据多备份几份。
 - **容灾**：在异地建立两个完全相同的系统。当某个地方的系统突然挂掉，整个应用系统可以切换到另一个，这样系统就可以正常提供服务了。
 
-**异地多活** 描述的是将服务部署在异地并且服务同时对外提供服务。和传统的灾备设计的最主要区别在于“多活”，即所有站点都是同时在对外提供服务的。异地多活是为了应对突发状况比如火灾、地震等自然或者人为灾害。
-
-## Star 趋势
-
-![Stars](https://api.star-history.com/svg?repos=Snailclimb/JavaGuide&type=Date)
-
-## 公众号
-
-如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
-
-<img src="https://oss.javaguide.cn/github/javaguide/gongzhonghao-javaguide.png" alt="JavaGuide 公众号"  style="zoom: 43%; display: block; margin: 0 auto;" />
+**异地多活** 描述的是将服务部署在异地并且服务同时对外提供服务。和传统的灾备设计的最主要区别在于"多活"，即所有站点都是同时在对外提供服务的。异地多活是为了应对突发状况比如火灾、地震等自然或者人为灾害。
 
 <!-- #endregion home -->

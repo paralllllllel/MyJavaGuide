@@ -1,39 +1,14 @@
-Recommended to read through online reading platforms for better experience and faster speed! Link: [javaguide.cn](https://javaguide.cn/).
+# MyJavaGuide
 
-<div align="center">
-
-[![logo](https://oss.javaguide.cn/github/javaguide/csdn/1c00413c65d1995993bf2b0daf7b4f03.png)](https://github.com/Snailclimb/JavaGuide)
-
-[GitHub](https://github.com/Snailclimb/JavaGuide) | [Gitee](https://gitee.com/SnailClimb/JavaGuide)
-
-<a href="https://trendshift.io/repositories/1319" target="_blank"><img src="https://trendshift.io/api/badge/repositories/1319" alt="Snailclimb%2FJavaGuide | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-
-</div>
-
-> - **Interview Edition**: Candidates preparing for Java interviews can consider the **[《Java Interview Guide》](./docs/zhuanlan/java-mian-shi-zhi-bei.md)** (high quality, specially designed for interviews, to be used with JavaGuide).
-> - **Knowledge Planet**: Exclusive interview mini-books/one-on-one communication/resume modification/exclusive job-seeking guide, welcome to join **[JavaGuide Knowledge Planet](./docs/about-the-author/zhishixingqiu-two-years.md)** (click the link to view the detailed introduction of the planet, make sure you really need it before joining).
-> - **Usage Suggestion**: Experienced interviewers always dig into technical issues along the project experience. Definitely do not memorize technical articles! For detailed learning suggestions, please refer to: [JavaGuide Usage Suggestion](./docs/javaguide/use-suggestion.md).
-> - **Seek a Star**: If you find the content of JavaGuide helpful, please give a free Star, which is the greatest encouragement to me. Thank you all for walking together and striving together! Github link: [https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide).
-> - **Reprint Notice**: All the following articles are original creations of JavaGuide unless stated otherwise at the beginning. Please indicate the source when reprinting. If malicious plagiarism/copying is discovered, legal weapons will be used to safeguard our rights. Let's together maintain a good technical creation environment!
-
-<div align="center">
-  <img src="https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  
-</div>
+Personal Java backend knowledge notes based on [JavaGuide](https://github.com/Snailclimb/JavaGuide), with my own understanding and corrections. Thanks to the original author Snailclimb for the open-source contribution.
 
 <!-- #region home -->
-
-## Project-related
-
-- [Project Introduction](https://javaguide.cn/javaguide/intro.html)
-- [Usage Suggestion](https://javaguide.cn/javaguide/use-suggestion.html)
-- [Contribution Guide](https://javaguide.cn/javaguide/contribution-guideline.html)
-- [FAQ](https://javaguide.cn/javaguide/faq.html)
 
 ## Java
 
 ### Basics
 
-**Knowledge Points/Interview Questions Summary** : (Must-see:+1:):
+**Knowledge Points/Interview Questions Summary** (Must-see :+1:):
 
 - [Summary of Common Java Basics Knowledge Points & Interview Questions (Part 1)](./docs/java/basis/java-basic-questions-01.md)
 - [Summary of Common Java Basics Knowledge Points & Interview Questions (Part 2)](./docs/java/basis/java-basic-questions-02.md)
@@ -64,10 +39,6 @@ Recommended to read through online reading platforms for better experience and f
 - [ArrayList Core Source Code + Expansion Mechanism Analysis](./docs/java/collection/arraylist-source-code.md)
 - [LinkedList Core Source Code Analysis](./docs/java/collection/linkedlist-source-code.md)
 - [HashMap Core Source Code + Underlying Data Structure Analysis](./docs/java/collection/hashmap-source-code.md)
-# Java Collection & Concurrency Series
-
-## Collection
-
 - [ConcurrentHashMap Core Source Code + Underlying Data Structure Analysis](./docs/java/collection/concurrent-hash-map-source-code.md)
 - [LinkedHashMap Core Source Code Analysis](./docs/java/collection/linkedhashmap-source-code.md)
 - [CopyOnWriteArrayList Core Source Code Analysis](./docs/java/collection/copyonwritearraylist-source-code.md)
@@ -84,7 +55,7 @@ Recommended to read through online reading platforms for better experience and f
 
 ### Concurrency
 
-**Knowledge Points/Interview Questions Summary** : (Must-read :+1:)
+**Knowledge Points/Interview Questions Summary** (Must-read :+1:):
 
 - [Common Java Concurrency Knowledge Points & Interview Questions Summary (Part 1)](./docs/java/concurrent/java-concurrent-questions-01.md)
 - [Common Java Concurrency Knowledge Points & Interview Questions Summary (Part 2)](./docs/java/concurrent/java-concurrent-questions-02.md)
@@ -128,7 +99,10 @@ The JVM part mainly refers to the [JVM Specification - Java 8](https://docs.orac
 - [Java 18 New Features Overview](./docs/java/new-features/java18.md)
 - [Java 19 New Features Overview](./docs/java/new-features/java19.md)
 - [Java 20 New Features Overview](./docs/java/new-features/java20.md)
-# Overview of Java 21, 22, 23, 24, and 25 New Features
+- [Java 21 New Features Overview](./docs/java/new-features/java21.md)
+- [Java 22 & 23 New Features Overview](./docs/java/new-features/java22-23.md)
+- [Java 24 New Features Overview](./docs/java/new-features/java24.md)
+- [Java 25 New Features Overview](./docs/java/new-features/java25.md)
 
 ## Computer Fundamentals
 
@@ -177,19 +151,12 @@ Other Commonly Used Data Structures:
 
 ### Algorithms
 
-The algorithm part is very important. If you don't know how to learn algorithms, you can refer to:
-
-- [Recommended Algorithm Learning Books and Resources](https://www.zhihu.com/question/323359308/answer/1545320858).
-- [How to Solve LeetCode Problems?](https://www.zhihu.com/question/31092580/answer/1534887374)
-
 **Summary of Common Algorithm Problems**:
 
 - [Summary of Several Common String Algorithm Problems](./docs/cs-basics/algorithms/string-algorithm-problems.md)
 - [Summary of Several Common Linked List Algorithm Problems](./docs/cs-basics/algorithms/linkedlist-algorithm-problems.md)
 - [Part of the Coding Questions from the "Sword Refers to Offer"](./docs/cs-basics/algorithms/the-sword-refers-to-offer.md)
 - [Ten Classic Sorting Algorithms](./docs/cs-basics/algorithms/10-classical-sorting-algorithms.md)
-
-Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algorithms/) has a comprehensive summary of common algorithms.
 
 ## Database
 
@@ -205,9 +172,8 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 ### MySQL
 
 **Knowledge Points/Interview Questions Summary:**
-# MySQL Common Knowledge Points & Interview Questions Summary (Must-Read :+1:)
 
-- [MySQL Common Knowledge Points & Interview Questions Summary](./docs/database/mysql/mysql-questions-01.md)
+- [MySQL Common Knowledge Points & Interview Questions Summary](./docs/database/mysql/mysql-questions-01.md) (Must-Read :+1:)
 - [MySQL High-Performance Optimization Specification Recommendations](./docs/database/mysql/mysql-high-performance-optimization-specification-recommendations.md)
 
 **Important Knowledge Points:**
@@ -245,11 +211,9 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 - [MongoDB Common Knowledge Points & Interview Questions Summary (Part 1)](./docs/database/mongodb/mongodb-questions-01.md)
 - [MongoDB Common Knowledge Points & Interview Questions Summary (Part 2)](./docs/database/mongodb/mongodb-questions-02.md)
 
-## Search Engines
+### Search Engines
 
-[Elasticsearch Common Interview Questions Summary (Paid)](./docs/database/elasticsearch/elasticsearch-questions-01.md)
-
-![JavaGuide Official Public Account](https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png)
+- [Elasticsearch Common Interview Questions Summary](./docs/database/elasticsearch/elasticsearch-questions-01.md)
 
 ## Development Tools
 
@@ -260,7 +224,7 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 
 ### Gradle
 
-[Gradle Core Concepts Summary](./docs/tools/gradle/gradle-core-concepts.md) (Optional, Maven is still more widely used in China)
+- [Gradle Core Concepts Summary](./docs/tools/gradle/gradle-core-concepts.md)
 
 ### Docker
 
@@ -290,10 +254,10 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 #### Spring/SpringBoot (Must-Read :+1:)
 
 **Knowledge Points/Interview Questions Summary**:
+
 - [Summary of Common Spring Knowledge Points and Interview Questions](./docs/system-design/framework/spring/spring-knowledge-and-questions-summary.md)
 - [Summary of Common SpringBoot Knowledge Points and Interview Questions](./docs/system-design/framework/spring/springboot-knowledge-and-questions-summary.md)
 - [Summary of Common Spring/SpringBoot Annotations](./docs/system-design/framework/spring/spring-common-annotations.md)
-- [SpringBoot Beginner's Guide](https://github.com/Snailclimb/springboot-guide)
 
 **Detailed Explanation of Important Knowledge Points**:
 
@@ -304,7 +268,7 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 
 #### MyBatis
 
-[Summary of Common MyBatis Interview Questions](./docs/system-design/framework/mybatis/mybatis-interview.md)
+- [Summary of Common MyBatis Interview Questions](./docs/system-design/framework/mybatis/mybatis-interview.md)
 
 ### Security
 
@@ -325,11 +289,11 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 
 ### Scheduled Tasks
 
-[Detailed Explanation of Java Scheduled Tasks](./docs/system-design/schedule-task.md)
+- [Detailed Explanation of Java Scheduled Tasks](./docs/system-design/schedule-task.md)
 
 ### Web Real-time Message Pushing
 
-[Detailed Explanation of Web Real-time Message Pushing](./docs/system-design/web-real-time-message-push.md)
+- [Detailed Explanation of Web Real-time Message Pushing](./docs/system-design/web-real-time-message-push.md)
 
 ## Distributed System
 
@@ -348,8 +312,6 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 
 ### ZooKeeper
 
-> These two articles may have some overlapping content, it is recommended to read both.
-
 - [Summary of ZooKeeper Relevant Concepts (Beginner)](https://javaguide.cn/distributed-system/distributed-process-coordination/zookeeper/zookeeper-intro.html)
 - [Summary of ZooKeeper Relevant Concepts (Advanced)](https://javaguide.cn/distributed-system/distributed-process-coordination/zookeeper/zookeeper-plus.html)
 
@@ -364,18 +326,17 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 - [Design Guide for Distributed ID](https://javaguide.cn/distributed-system/distributed-id-design.html)
 
 ### Distributed Lock
-# Distributed Locks
 
 - [Introduction to Distributed Locks](https://javaguide.cn/distributed-system/distributed-lock.html)
 - [Summary of Common Distributed Lock Implementation Solutions](https://javaguide.cn/distributed-system/distributed-lock-implementations.html)
 
 ### Distributed Transactions
 
-[Summary of Common Distributed Transaction Knowledge Points and Interview Questions](https://javaguide.cn/distributed-system/distributed-transaction.html)
+- [Summary of Common Distributed Transaction Knowledge Points and Interview Questions](https://javaguide.cn/distributed-system/distributed-transaction.html)
 
 ### Distributed Configuration Center
 
-[Summary of Common Distributed Configuration Center Knowledge Points and Interview Questions](./docs/distributed-system/distributed-configuration-center.md)
+- [Summary of Common Distributed Configuration Center Knowledge Points and Interview Questions](./docs/distributed-system/distributed-configuration-center.md)
 
 ## High Performance
 
@@ -388,11 +349,11 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 
 ### Load Balancing
 
-[Summary of Common Load Balancing Knowledge Points and Interview Questions](./docs/high-performance/load-balancing.md)
+- [Summary of Common Load Balancing Knowledge Points and Interview Questions](./docs/high-performance/load-balancing.md)
 
 ### CDN
 
-[Summary of Common CDN (Content Delivery Network) Knowledge Points and Interview Questions](./docs/high-performance/cdn.md)
+- [Summary of Common CDN (Content Delivery Network) Knowledge Points and Interview Questions](./docs/high-performance/cdn.md)
 
 ### Message Queue
 
@@ -404,23 +365,23 @@ Additionally, [GeeksforGeeks](https://www.geeksforgeeks.org/fundamentals-of-algo
 
 ## High Availability
 
-[Guide to High Availability System Design](./docs/high-availability/high-availability-system-design.md)
+- [Guide to High Availability System Design](./docs/high-availability/high-availability-system-design.md)
 
 ### Redundancy Design
 
-[Detailed Explanation of Redundancy Design](./docs/high-availability/redundancy.md)
+- [Detailed Explanation of Redundancy Design](./docs/high-availability/redundancy.md)
 
 ### Rate Limiting
 
-[Detailed Explanation of Service Rate Limiting](./docs/high-availability/limit-request.md)
+- [Detailed Explanation of Service Rate Limiting](./docs/high-availability/limit-request.md)
 
 ### Fallback & Circuit Breaker
 
-[Detailed Explanation of Fallback & Circuit Breaker](./docs/high-availability/fallback-and-circuit-breaker.md)
+- [Detailed Explanation of Fallback & Circuit Breaker](./docs/high-availability/fallback-and-circuit-breaker.md)
 
 ### Timeout & Retry
 
-[Detailed Explanation of Timeout & Retry](./docs/high-availability/timeout-and-retry.md)
+- [Detailed Explanation of Timeout & Retry](./docs/high-availability/timeout-and-retry.md)
 
 ### Clustering
 
@@ -435,12 +396,4 @@ Deploying multiple instances of the same service to avoid single point of failur
 
 **Active-Active Deployment** describes deploying services in different locations and simultaneously providing services externally. The main difference from traditional disaster recovery design is the "active-active" nature, i.e., all sites are simultaneously providing external services. Active-active deployment is to cope with unexpected situations such as fires, earthquakes and other natural or man-made disasters.
 
-## Star Trend
-
-![Stars](https://api.star-history.com/svg?repos=Snailclimb/JavaGuide&type=Date)
-
-## Official Public Account
-
-If you want to stay up-to-date with my latest articles and share my valuable content, you can follow my official public account.
-
-![JavaGuide Official Public Account](https://oss.javaguide.cn/github/javaguide/gongzhonghaoxuanchuan.png)
+<!-- #endregion home -->
